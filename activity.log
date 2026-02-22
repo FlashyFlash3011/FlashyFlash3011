@@ -2,3 +2,4 @@
 2026-02-22T01:51:20 - test: add integration tests
 2026-02-22T09:43:41 - style: apply consistent naming convention
 2026-02-22T09:46:04 - refactor: modularize large function
+2026-02-22T17:49:30 - refactor: extract repeated logic into helper
