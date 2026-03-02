@@ -16,3 +16,4 @@
 2026-02-27T16:14:26 - fix: correct off-by-one error
 2026-02-27T18:24:34 - refactor: modularize large function
 2026-02-27T22:11:28 - docs: update inline comments
+2026-03-02T10:32:31 - test: add unit tests for core module
