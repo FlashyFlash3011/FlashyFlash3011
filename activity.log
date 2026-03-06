@@ -34,3 +34,4 @@
 2026-03-05T17:44:46 - fix: correct off-by-one error
 2026-03-06T11:33:57 - docs: add API documentation
 2026-03-06T14:51:28 - docs: add API documentation
+2026-03-06T17:18:35 - test: add integration tests
