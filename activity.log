@@ -32,3 +32,4 @@
 2026-03-05T16:23:46 - fix: handle null pointer exception
 2026-03-05T17:35:25 - chore: cleanup build artifacts
 2026-03-05T17:44:46 - fix: correct off-by-one error
+2026-03-06T11:33:57 - docs: add API documentation
