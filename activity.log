@@ -37,3 +37,4 @@
 2026-03-06T17:18:35 - test: add integration tests
 2026-03-07T09:13:48 - chore: remove deprecated code
 2026-03-07T09:33:50 - chore: cleanup build artifacts
+2026-03-07T15:16:07 - fix: resolve race condition
