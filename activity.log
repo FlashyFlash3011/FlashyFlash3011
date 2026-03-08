@@ -39,3 +39,4 @@
 2026-03-07T09:33:50 - chore: cleanup build artifacts
 2026-03-07T15:16:07 - fix: resolve race condition
 2026-03-08T09:44:59 - feat: add logging for debugging
+2026-03-08T10:35:52 - fix: correct off-by-one error
