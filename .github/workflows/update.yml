@@ -1,0 +1,35 @@
+name: Update Space Invaders
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # every Sunday midnight UTC
+  workflow_dispatch:        # allow manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Regenerate SVG
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: python generate_readme.py --username "$GH_USERNAME" --token "$GH_TOKEN"
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add space_invaders.svg README.md
+          git diff --cached --quiet || git commit -m "chore: refresh contribution graph animation"
+          git push
