@@ -56,3 +56,4 @@
 2026-03-18T11:18:57 - fix: resolve race condition
 2026-03-18T16:34:04 - refactor: extract repeated logic into helper
 2026-03-19T03:20:49 - feat: add error boundary handling
+2026-03-19T08:35:43 - feat: add utility helper function
