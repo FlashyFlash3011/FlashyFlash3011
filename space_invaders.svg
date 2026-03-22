@@ -93,8 +93,8 @@
   <text x="120" y="16" class="ui" text-anchor="middle">SCORE&lt;1&gt;</text>
   <text x="400" y="16" class="ui" text-anchor="middle">HI-SCORE</text>
   <text x="680" y="16" class="ui" text-anchor="middle">SCORE&lt;2&gt;</text>
-  <text x="120" y="28" class="ui" text-anchor="middle">000799</text>
-  <text x="400" y="28" class="ui" text-anchor="middle">007990</text>
+  <text x="120" y="28" class="ui" text-anchor="middle">000860</text>
+  <text x="400" y="28" class="ui" text-anchor="middle">008600</text>
   <text x="680" y="28" class="ui" text-anchor="middle">000000</text>
 
   <!-- ═══ INVADER FORMATION (CSS discrete-step march) ═══ -->
@@ -199,7 +199,7 @@
   <rect id="s5-4" x="84" y="94" width="11" height="11" rx="2" class="c2"/>
   <rect id="s5-5" x="84" y="108" width="11" height="11" rx="2" class="c1"/>
   <rect id="s5-6" x="84" y="122" width="11" height="11" rx="2" class="c1"/>
-  <rect id="s6-0" x="98" y="38" width="11" height="11" rx="2" class="c3"/>
+  <rect id="s6-0" x="98" y="38" width="11" height="11" rx="2" class="c2"/>
   <rect id="s6-1" x="98" y="52" width="11" height="11" rx="2" class="c1"/>
   <rect id="s6-2" x="98" y="66" width="11" height="11" rx="2" class="c0"/>
   <rect id="s6-3" x="98" y="80" width="11" height="11" rx="2" class="c1"/>
@@ -306,7 +306,7 @@
   <rect id="s20-6" x="294" y="122" width="11" height="11" rx="2" class="c1"/>
   <rect id="s21-0" x="308" y="38" width="11" height="11" rx="2" class="c0"/>
   <rect id="s21-1" x="308" y="52" width="11" height="11" rx="2" class="c2"/>
-  <rect id="s21-2" x="308" y="66" width="11" height="11" rx="2" class="c3"/>
+  <rect id="s21-2" x="308" y="66" width="11" height="11" rx="2" class="c2"/>
   <rect id="s21-3" x="308" y="80" width="11" height="11" rx="2" class="c2"/>
   <rect id="s21-4" x="308" y="94" width="11" height="11" rx="2" class="c1"/>
   <rect id="s21-5" x="308" y="108" width="11" height="11" rx="2" class="c1"/>
@@ -333,7 +333,7 @@
   <rect id="s24-5" x="350" y="108" width="11" height="11" rx="2" class="c1"/>
   <rect id="s24-6" x="350" y="122" width="11" height="11" rx="2" class="c0"/>
   <rect id="s25-0" x="364" y="38" width="11" height="11" rx="2" class="c0"/>
-  <rect id="s25-1" x="364" y="52" width="11" height="11" rx="2" class="c3"/>
+  <rect id="s25-1" x="364" y="52" width="11" height="11" rx="2" class="c2"/>
   <rect id="s25-2" x="364" y="66" width="11" height="11" rx="2" class="c2"/>
   <rect id="s25-3" x="364" y="80" width="11" height="11" rx="2" class="c1"/>
   <rect id="s25-4" x="364" y="94" width="11" height="11" rx="2" class="c0"/>
@@ -355,7 +355,7 @@
   <rect id="s27-6" x="392" y="122" width="11" height="11" rx="2" class="c0"/>
   <rect id="s28-0" x="406" y="38" width="11" height="11" rx="2" class="c0"/>
   <rect id="s28-1" x="406" y="52" width="11" height="11" rx="2" class="c2"/>
-  <rect id="s28-2" x="406" y="66" width="11" height="11" rx="2" class="c3"/>
+  <rect id="s28-2" x="406" y="66" width="11" height="11" rx="2" class="c2"/>
   <rect id="s28-3" x="406" y="80" width="11" height="11" rx="2" class="c1"/>
   <rect id="s28-4" x="406" y="94" width="11" height="11" rx="2" class="c1"/>
   <rect id="s28-5" x="406" y="108" width="11" height="11" rx="2" class="c1"/>
@@ -365,14 +365,14 @@
   <rect id="s29-2" x="420" y="66" width="11" height="11" rx="2" class="c1"/>
   <rect id="s29-3" x="420" y="80" width="11" height="11" rx="2" class="c2"/>
   <rect id="s29-4" x="420" y="94" width="11" height="11" rx="2" class="c0"/>
-  <rect id="s29-5" x="420" y="108" width="11" height="11" rx="2" class="c3"/>
+  <rect id="s29-5" x="420" y="108" width="11" height="11" rx="2" class="c2"/>
   <rect id="s29-6" x="420" y="122" width="11" height="11" rx="2" class="c0"/>
   <rect id="s30-0" x="434" y="38" width="11" height="11" rx="2" class="c0"/>
   <rect id="s30-1" x="434" y="52" width="11" height="11" rx="2" class="c2"/>
   <rect id="s30-2" x="434" y="66" width="11" height="11" rx="2" class="c1"/>
   <rect id="s30-3" x="434" y="80" width="11" height="11" rx="2" class="c2"/>
   <rect id="s30-4" x="434" y="94" width="11" height="11" rx="2" class="c1"/>
-  <rect id="s30-5" x="434" y="108" width="11" height="11" rx="2" class="c3"/>
+  <rect id="s30-5" x="434" y="108" width="11" height="11" rx="2" class="c2"/>
   <rect id="s30-6" x="434" y="122" width="11" height="11" rx="2" class="c0"/>
   <rect id="s31-0" x="448" y="38" width="11" height="11" rx="2" class="c0"/>
   <rect id="s31-1" x="448" y="52" width="11" height="11" rx="2" class="c2"/>
@@ -388,7 +388,7 @@
   <rect id="s32-4" x="462" y="94" width="11" height="11" rx="2" class="c0"/>
   <rect id="s32-5" x="462" y="108" width="11" height="11" rx="2" class="c1"/>
   <rect id="s32-6" x="462" y="122" width="11" height="11" rx="2" class="c2"/>
-  <rect id="s33-0" x="476" y="38" width="11" height="11" rx="2" class="c3"/>
+  <rect id="s33-0" x="476" y="38" width="11" height="11" rx="2" class="c2"/>
   <rect id="s33-1" x="476" y="52" width="11" height="11" rx="2" class="c0"/>
   <rect id="s33-2" x="476" y="66" width="11" height="11" rx="2" class="c0"/>
   <rect id="s33-3" x="476" y="80" width="11" height="11" rx="2" class="c0"/>
@@ -419,7 +419,7 @@
   <rect id="s37-0" x="532" y="38" width="11" height="11" rx="2" class="c0"/>
   <rect id="s37-1" x="532" y="52" width="11" height="11" rx="2" class="c1"/>
   <rect id="s37-2" x="532" y="66" width="11" height="11" rx="2" class="c1"/>
-  <rect id="s37-3" x="532" y="80" width="11" height="11" rx="2" class="c3"/>
+  <rect id="s37-3" x="532" y="80" width="11" height="11" rx="2" class="c2"/>
   <rect id="s37-4" x="532" y="94" width="11" height="11" rx="2" class="c2"/>
   <rect id="s37-5" x="532" y="108" width="11" height="11" rx="2" class="c1"/>
   <rect id="s37-6" x="532" y="122" width="11" height="11" rx="2" class="c1"/>
@@ -493,24 +493,24 @@
   <rect id="s47-4" x="672" y="94" width="11" height="11" rx="2" class="c2"/>
   <rect id="s47-5" x="672" y="108" width="11" height="11" rx="2" class="c2"/>
   <rect id="s47-6" x="672" y="122" width="11" height="11" rx="2" class="c0"/>
-  <rect id="s48-0" x="686" y="38" width="11" height="11" rx="2" class="c0"/>
-  <rect id="s48-1" x="686" y="52" width="11" height="11" rx="2" class="c1"/>
+  <rect id="s48-0" x="686" y="38" width="11" height="11" rx="2" class="c2"/>
+  <rect id="s48-1" x="686" y="52" width="11" height="11" rx="2" class="c2"/>
   <rect id="s48-2" x="686" y="66" width="11" height="11" rx="2" class="c1"/>
   <rect id="s48-3" x="686" y="80" width="11" height="11" rx="2" class="c0"/>
-  <rect id="s48-4" x="686" y="94" width="11" height="11" rx="2" class="c1"/>
-  <rect id="s48-5" x="686" y="108" width="11" height="11" rx="2" class="c0"/>
+  <rect id="s48-4" x="686" y="94" width="11" height="11" rx="2" class="c2"/>
+  <rect id="s48-5" x="686" y="108" width="11" height="11" rx="2" class="c2"/>
   <rect id="s48-6" x="686" y="122" width="11" height="11" rx="2" class="c1"/>
   <rect id="s49-0" x="700" y="38" width="11" height="11" rx="2" class="c3"/>
-  <rect id="s49-1" x="700" y="52" width="11" height="11" rx="2" class="c0"/>
+  <rect id="s49-1" x="700" y="52" width="11" height="11" rx="2" class="c2"/>
   <rect id="s49-2" x="700" y="66" width="11" height="11" rx="2" class="c2"/>
-  <rect id="s49-3" x="700" y="80" width="11" height="11" rx="2" class="c2"/>
-  <rect id="s49-4" x="700" y="94" width="11" height="11" rx="2" class="c1"/>
-  <rect id="s49-5" x="700" y="108" width="11" height="11" rx="2" class="c1"/>
+  <rect id="s49-3" x="700" y="80" width="11" height="11" rx="2" class="c3"/>
+  <rect id="s49-4" x="700" y="94" width="11" height="11" rx="2" class="c3"/>
+  <rect id="s49-5" x="700" y="108" width="11" height="11" rx="2" class="c2"/>
   <rect id="s49-6" x="700" y="122" width="11" height="11" rx="2" class="c4"/>
-  <rect id="s50-0" x="714" y="38" width="11" height="11" rx="2" class="c1"/>
-  <rect id="s50-1" x="714" y="52" width="11" height="11" rx="2" class="c2"/>
-  <rect id="s50-2" x="714" y="66" width="11" height="11" rx="2" class="c1"/>
-  <rect id="s50-3" x="714" y="80" width="11" height="11" rx="2" class="c0"/>
+  <rect id="s50-0" x="714" y="38" width="11" height="11" rx="2" class="c2"/>
+  <rect id="s50-1" x="714" y="52" width="11" height="11" rx="2" class="c3"/>
+  <rect id="s50-2" x="714" y="66" width="11" height="11" rx="2" class="c2"/>
+  <rect id="s50-3" x="714" y="80" width="11" height="11" rx="2" class="c1"/>
   <rect id="s50-4" x="714" y="94" width="11" height="11" rx="2" class="c2"/>
   <rect id="s50-5" x="714" y="108" width="11" height="11" rx="2" class="c1"/>
   <rect id="s50-6" x="714" y="122" width="11" height="11" rx="2" class="c0"/>
