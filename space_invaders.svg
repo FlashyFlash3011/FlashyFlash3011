@@ -93,8 +93,8 @@
   <text x="120" y="16" class="ui" text-anchor="middle">SCORE&lt;1&gt;</text>
   <text x="400" y="16" class="ui" text-anchor="middle">HI-SCORE</text>
   <text x="680" y="16" class="ui" text-anchor="middle">SCORE&lt;2&gt;</text>
-  <text x="120" y="28" class="ui" text-anchor="middle">000909</text>
-  <text x="400" y="28" class="ui" text-anchor="middle">009090</text>
+  <text x="120" y="28" class="ui" text-anchor="middle">000927</text>
+  <text x="400" y="28" class="ui" text-anchor="middle">009270</text>
   <text x="680" y="28" class="ui" text-anchor="middle">000000</text>
 
   <!-- ═══ INVADER FORMATION (CSS discrete-step march) ═══ -->
@@ -491,7 +491,7 @@
   <rect id="s47-2" x="672" y="66" width="11" height="11" rx="2" class="c1"/>
   <rect id="s47-3" x="672" y="80" width="11" height="11" rx="2" class="c2"/>
   <rect id="s47-4" x="672" y="94" width="11" height="11" rx="2" class="c2"/>
-  <rect id="s47-5" x="672" y="108" width="11" height="11" rx="2" class="c1"/>
+  <rect id="s47-5" x="672" y="108" width="11" height="11" rx="2" class="c2"/>
   <rect id="s47-6" x="672" y="122" width="11" height="11" rx="2" class="c3"/>
   <rect id="s48-0" x="686" y="38" width="11" height="11" rx="2" class="c1"/>
   <rect id="s48-1" x="686" y="52" width="11" height="11" rx="2" class="c2"/>
