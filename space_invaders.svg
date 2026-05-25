@@ -93,8 +93,8 @@
   <text x="120" y="16" class="ui" text-anchor="middle">SCORE&lt;1&gt;</text>
   <text x="400" y="16" class="ui" text-anchor="middle">HI-SCORE</text>
   <text x="680" y="16" class="ui" text-anchor="middle">SCORE&lt;2&gt;</text>
-  <text x="120" y="28" class="ui" text-anchor="middle">000938</text>
-  <text x="400" y="28" class="ui" text-anchor="middle">009380</text>
+  <text x="120" y="28" class="ui" text-anchor="middle">000940</text>
+  <text x="400" y="28" class="ui" text-anchor="middle">009400</text>
   <text x="680" y="28" class="ui" text-anchor="middle">000000</text>
 
   <!-- ═══ INVADER FORMATION (CSS discrete-step march) ═══ -->
@@ -517,10 +517,10 @@
   <rect id="s51-0" x="728" y="38" width="11" height="11" rx="2" class="c0"/>
   <rect id="s51-1" x="728" y="52" width="11" height="11" rx="2" class="c0"/>
   <rect id="s51-2" x="728" y="66" width="11" height="11" rx="2" class="c0"/>
-  <rect id="s51-3" x="728" y="80" width="11" height="11" rx="2" class="c0"/>
+  <rect id="s51-3" x="728" y="80" width="11" height="11" rx="2" class="c2"/>
   <rect id="s51-4" x="728" y="94" width="11" height="11" rx="2" class="c0"/>
   <rect id="s51-5" x="728" y="108" width="11" height="11" rx="2" class="c0"/>
-  <rect id="s51-6" x="728" y="122" width="11" height="11" rx="2" class="c0"/>
+  <rect id="s51-6" x="728" y="122" width="11" height="11" rx="2" class="c2"/>
 
   <!-- ═══ LASERS + EXPLOSIONS ═══ -->
   <!-- fire@0.6s x=110 → sq(7,1) -->
