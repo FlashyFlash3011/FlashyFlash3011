@@ -20,9 +20,9 @@ except ImportError:
 # ─────────────────────────────────────────────────────────────────────────────
 
 GQL = """
-query($username: String!, $from: DateTime!) {
-  user(login: $username) {
-    contributionsCollection(from: $from) {
+query {
+  viewer {
+    contributionsCollection {
       contributionCalendar {
         totalContributions
         weeks { contributionDays { date contributionCount contributionLevel } }
@@ -37,15 +37,14 @@ LEVELS = {
 }
 
 def fetch(username, token):
-    year_start = f"{date.today().year}-01-01T00:00:00Z"
     r = requests.post("https://api.github.com/graphql",
-        json={"query": GQL, "variables": {"username": username, "from": year_start}},
+        json={"query": GQL},
         headers={"Authorization": f"bearer {token}"}, timeout=15)
     r.raise_for_status()
     body = r.json()
     if "errors" in body:
         raise RuntimeError(body["errors"])
-    cal = body["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+    cal = body["data"]["viewer"]["contributionsCollection"]["contributionCalendar"]
     return cal["weeks"], cal["totalContributions"]
 
 def make_demo(seed=0):
