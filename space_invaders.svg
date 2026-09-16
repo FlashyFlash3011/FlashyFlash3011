@@ -93,8 +93,8 @@
   <text x="120" y="16" class="ui" text-anchor="middle">SCORE&lt;1&gt;</text>
   <text x="400" y="16" class="ui" text-anchor="middle">HI-SCORE</text>
   <text x="680" y="16" class="ui" text-anchor="middle">SCORE&lt;2&gt;</text>
-  <text x="120" y="28" class="ui" text-anchor="middle">000822</text>
-  <text x="400" y="28" class="ui" text-anchor="middle">008220</text>
+  <text x="120" y="28" class="ui" text-anchor="middle">000854</text>
+  <text x="400" y="28" class="ui" text-anchor="middle">008540</text>
   <text x="680" y="28" class="ui" text-anchor="middle">000000</text>
 
   <!-- ═══ INVADER FORMATION (CSS discrete-step march) ═══ -->
@@ -331,7 +331,7 @@
   <rect id="s24-3" x="350" y="80" width="11" height="11" rx="2" class="c2"/>
   <rect id="s24-4" x="350" y="94" width="11" height="11" rx="2" class="c2"/>
   <rect id="s24-5" x="350" y="108" width="11" height="11" rx="2" class="c2"/>
-  <rect id="s24-6" x="350" y="122" width="11" height="11" rx="2" class="c3"/>
+  <rect id="s24-6" x="350" y="122" width="11" height="11" rx="2" class="c4"/>
   <rect id="s25-0" x="364" y="38" width="11" height="11" rx="2" class="c1"/>
   <rect id="s25-1" x="364" y="52" width="11" height="11" rx="2" class="c2"/>
   <rect id="s25-2" x="364" y="66" width="11" height="11" rx="2" class="c1"/>
@@ -359,7 +359,7 @@
   <rect id="s28-3" x="406" y="80" width="11" height="11" rx="2" class="c0"/>
   <rect id="s28-4" x="406" y="94" width="11" height="11" rx="2" class="c2"/>
   <rect id="s28-5" x="406" y="108" width="11" height="11" rx="2" class="c0"/>
-  <rect id="s28-6" x="406" y="122" width="11" height="11" rx="2" class="c1"/>
+  <rect id="s28-6" x="406" y="122" width="11" height="11" rx="2" class="c2"/>
   <rect id="s29-0" x="420" y="38" width="11" height="11" rx="2" class="c0"/>
   <rect id="s29-1" x="420" y="52" width="11" height="11" rx="2" class="c3"/>
   <rect id="s29-2" x="420" y="66" width="11" height="11" rx="2" class="c1"/>
@@ -519,7 +519,7 @@
   <rect id="s51-2" x="728" y="66" width="11" height="11" rx="2" class="c0"/>
   <rect id="s51-3" x="728" y="80" width="11" height="11" rx="2" class="c0"/>
   <rect id="s51-4" x="728" y="94" width="11" height="11" rx="2" class="c0"/>
-  <rect id="s51-5" x="728" y="108" width="11" height="11" rx="2" class="c0"/>
+  <rect id="s51-5" x="728" y="108" width="11" height="11" rx="2" class="c3"/>
   <rect id="s51-6" x="728" y="122" width="11" height="11" rx="2" class="c0"/>
 
   <!-- ═══ LASERS + EXPLOSIONS ═══ -->
@@ -653,6 +653,32 @@
       keyTimes="0.0000; 0.4611; 0.4628; 0.6677; 0.6760; 1"
       dur="12.1s" repeatCount="indefinite"/>
   </rect>
+  <!-- fire@6.6s x=660 → sq(51,5) -->
+  <rect x="659" y="370" width="3" height="18" rx="1"
+        fill="#ff0000" opacity="0">
+    <animate attributeName="opacity"
+      values="0; 0; 1; 1; 0; 0"
+      keyTimes="0.0000; 0.5482; 0.5490; 0.6089; 0.6097; 1"
+      dur="12.1s" repeatCount="indefinite"/>
+    <animate attributeName="y"
+      values="370; 370; 370; 113; 113"
+      keyTimes="0.0000; 0.5482; 0.5490; 0.6089; 1"
+      dur="12.1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="724" y="104" width="19" height="19" rx="3"
+        fill="#ff6600" opacity="0">
+    <animate attributeName="opacity"
+      values="0; 0; 1; 0.4; 0; 0"
+      keyTimes="0.0000; 0.6089; 0.6172; 0.6378; 0.6502; 1"
+      dur="12.1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="728" y="108" width="11" height="11" rx="2"
+        fill="#0d1117" opacity="0">
+    <animate attributeName="opacity"
+      values="0; 0; 1; 1; 0; 0"
+      keyTimes="0.0000; 0.6089; 0.6106; 0.8155; 0.8238; 1"
+      dur="12.1s" repeatCount="indefinite"/>
+  </rect>
   <!-- fire@7.7s x=530 → sq(37,0) -->
   <rect x="529" y="370" width="3" height="18" rx="1"
         fill="#ff0000" opacity="0">
@@ -679,82 +705,82 @@
       keyTimes="0.0000; 0.7102; 0.7118; 0.9168; 0.9251; 1"
       dur="12.1s" repeatCount="indefinite"/>
   </rect>
-  <!-- fire@8.7s x=400 → sq(28,2) -->
+  <!-- fire@8.7s x=400 → sq(28,6) -->
   <rect x="399" y="370" width="3" height="18" rx="1"
         fill="#ff0000" opacity="0">
     <animate attributeName="opacity"
       values="0; 0; 1; 1; 0; 0"
-      keyTimes="0.0000; 0.7177; 0.7185; 0.7883; 0.7891; 1"
+      keyTimes="0.0000; 0.7177; 0.7185; 0.7751; 0.7759; 1"
       dur="12.1s" repeatCount="indefinite"/>
     <animate attributeName="y"
-      values="370; 370; 370; 71; 71"
-      keyTimes="0.0000; 0.7177; 0.7185; 0.7883; 1"
+      values="370; 370; 370; 127; 127"
+      keyTimes="0.0000; 0.7177; 0.7185; 0.7751; 1"
       dur="12.1s" repeatCount="indefinite"/>
   </rect>
-  <rect x="402" y="62" width="19" height="19" rx="3"
+  <rect x="402" y="118" width="19" height="19" rx="3"
         fill="#ff6600" opacity="0">
     <animate attributeName="opacity"
       values="0; 0; 1; 0.4; 0; 0"
-      keyTimes="0.0000; 0.7883; 0.7966; 0.8172; 0.8296; 1"
+      keyTimes="0.0000; 0.7751; 0.7834; 0.8040; 0.8164; 1"
       dur="12.1s" repeatCount="indefinite"/>
   </rect>
-  <rect x="406" y="66" width="11" height="11" rx="2"
+  <rect x="406" y="122" width="11" height="11" rx="2"
         fill="#0d1117" opacity="0">
     <animate attributeName="opacity"
       values="0; 0; 1; 1; 0; 0"
-      keyTimes="0.0000; 0.7883; 0.7900; 0.9300; 0.9383; 1"
+      keyTimes="0.0000; 0.7751; 0.7767; 0.9300; 0.9383; 1"
       dur="12.1s" repeatCount="indefinite"/>
   </rect>
-  <!-- fire@9.7s x=270 → sq(18,6) -->
+  <!-- fire@9.7s x=270 → sq(18,1) -->
   <rect x="269" y="370" width="3" height="18" rx="1"
         fill="#ff0000" opacity="0">
     <animate attributeName="opacity"
       values="0; 0; 1; 1; 0; 0"
-      keyTimes="0.0000; 0.8025; 0.8033; 0.8598; 0.8607; 1"
+      keyTimes="0.0000; 0.8025; 0.8033; 0.8764; 0.8772; 1"
       dur="12.1s" repeatCount="indefinite"/>
     <animate attributeName="y"
-      values="370; 370; 370; 127; 127"
-      keyTimes="0.0000; 0.8025; 0.8033; 0.8598; 1"
+      values="370; 370; 370; 57; 57"
+      keyTimes="0.0000; 0.8025; 0.8033; 0.8764; 1"
       dur="12.1s" repeatCount="indefinite"/>
   </rect>
-  <rect x="262" y="118" width="19" height="19" rx="3"
+  <rect x="262" y="48" width="19" height="19" rx="3"
         fill="#ff6600" opacity="0">
     <animate attributeName="opacity"
       values="0; 0; 1; 0.4; 0; 0"
-      keyTimes="0.0000; 0.8598; 0.8681; 0.8888; 0.9012; 1"
+      keyTimes="0.0000; 0.8764; 0.8846; 0.9053; 0.9177; 1"
       dur="12.1s" repeatCount="indefinite"/>
   </rect>
-  <rect x="266" y="122" width="11" height="11" rx="2"
+  <rect x="266" y="52" width="11" height="11" rx="2"
         fill="#0d1117" opacity="0">
     <animate attributeName="opacity"
       values="0; 0; 1; 1; 0; 0"
-      keyTimes="0.0000; 0.8598; 0.8615; 0.9300; 0.9383; 1"
+      keyTimes="0.0000; 0.8764; 0.8780; 0.9300; 0.9383; 1"
       dur="12.1s" repeatCount="indefinite"/>
   </rect>
-  <!-- fire@10.7s x=140 → sq(9,0) -->
+  <!-- fire@10.7s x=140 → sq(9,4) -->
   <rect x="139" y="370" width="3" height="18" rx="1"
         fill="#ff0000" opacity="0">
     <animate attributeName="opacity"
       values="0; 0; 1; 1; 0; 0"
-      keyTimes="0.0000; 0.8872; 0.8880; 0.9644; 0.9653; 1"
+      keyTimes="0.0000; 0.8872; 0.8880; 0.9512; 0.9520; 1"
       dur="12.1s" repeatCount="indefinite"/>
     <animate attributeName="y"
-      values="370; 370; 370; 43; 43"
-      keyTimes="0.0000; 0.8872; 0.8880; 0.9644; 1"
+      values="370; 370; 370; 99; 99"
+      keyTimes="0.0000; 0.8872; 0.8880; 0.9512; 1"
       dur="12.1s" repeatCount="indefinite"/>
   </rect>
-  <rect x="136" y="34" width="19" height="19" rx="3"
+  <rect x="136" y="90" width="19" height="19" rx="3"
         fill="#ff6600" opacity="0">
     <animate attributeName="opacity"
       values="0; 0; 1; 0.4; 0; 0"
-      keyTimes="0.0000; 0.9644; 0.9727; 0.9934; 0.9998; 1"
+      keyTimes="0.0000; 0.9512; 0.9595; 0.9801; 0.9925; 1"
       dur="12.1s" repeatCount="indefinite"/>
   </rect>
-  <rect x="140" y="38" width="11" height="11" rx="2"
+  <rect x="140" y="94" width="11" height="11" rx="2"
         fill="#0d1117" opacity="0">
     <animate attributeName="opacity"
       values="0; 0; 1; 1; 0; 0"
-      keyTimes="0.0000; 0.9644; 0.9661; 0.9300; 0.9383; 1"
+      keyTimes="0.0000; 0.9512; 0.9529; 0.9300; 0.9383; 1"
       dur="12.1s" repeatCount="indefinite"/>
   </rect>
 
